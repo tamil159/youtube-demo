@@ -1,53 +1,67 @@
-<!DOCTYPE html>
+<!doctype>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login Form in HTML and CSS | CodingNepal</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="login_form">
-    <!-- Login form container -->
-    <form action="#">
-      <h3>Log in with</h3>
-      <div class="login_option">
-        <!-- Google button -->
-        <div class="option">
-          <a href="#">
-            <img src="logos/google.png" alt="Google" />
-            <span>Google</span>
-          </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Footer HTML and CSS | CodingNepal</title>
+    <!-- Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Compressions</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
         </div>
-        <!-- Apple button -->
-        <div class="option">
-          <a href="#">
-            <img src="logos/apple.png" alt="Apple" />
-            <span>Apple</span>
-          </a>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="#">Free Designs</a></li>
+            <li><a href="#">Latest Designs</a></li>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Popular Designs</a></li>
+            <li><a href="#">Art Skills</a></li>
+            <li><a href="#">New Uploads</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="links">
+            <li><a href="#">Customer Agreement</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">GDPR</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Media Kit</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose
+            of news, updates, helpful tips, and
+            exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required>
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
         </div>
       </div>
-      <!-- Login option separator -->
-      <p class="separator">
-        <span>or</span>
-      </p>
-      <!-- Email input box -->
-      <div class="input_box">
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Enter email address" required />
-      </div>
-      <!-- Paswwrod input box -->
-      <div class="input_box">
-        <div class="password_title">
-          <label for="password">Password</label>
-          <a href="#">Forgot Password?</a>
-        </div>
-        <input type="password" id="password" placeholder="Enter your password" required />
-      </div>
-       <!-- Login button -->
-      <button type="submit">Log In</button>
-      <p class="sign_up">Don't have an account? <a href="#">Sign up</a></p>
-    </form>
-  </div>
-</body>
+    </section>
+  </body>
 </html>
